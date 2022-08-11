@@ -106,7 +106,7 @@ class Settings:
 
         messages = []
 
-        while message := console.input("[bold white]>> [/]"):
+        while message != console.input("[bold white]>> [/]"):
             messages.append(message)
 
         print()
